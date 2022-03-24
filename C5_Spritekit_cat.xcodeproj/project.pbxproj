@@ -15,6 +15,12 @@
 		48315E7E27EAF53900A2CF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48315E7C27EAF53900A2CF10 /* Main.storyboard */; };
 		48315E8027EAF53A00A2CF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48315E7F27EAF53A00A2CF10 /* Assets.xcassets */; };
 		48315E8327EAF53B00A2CF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48315E8127EAF53B00A2CF10 /* LaunchScreen.storyboard */; };
+		48315E8C27EAF5F800A2CF10 /* oh_no.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48315E8927EAF5F800A2CF10 /* oh_no.mp3 */; };
+		48315E8D27EAF5F800A2CF10 /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48315E8A27EAF5F800A2CF10 /* whistle.mp3 */; };
+		48315E8E27EAF5F800A2CF10 /* db.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 48315E8B27EAF5F800A2CF10 /* db.atlas */; };
+		48315E9027EAF68F00A2CF10 /* EPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48315E8F27EAF68F00A2CF10 /* EPoint.swift */; };
+		48315E9227EAF70100A2CF10 /* PointContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48315E9127EAF70100A2CF10 /* PointContainer.swift */; };
+		48315E9427EAFCCC00A2CF10 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48315E9327EAFCCC00A2CF10 /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +33,12 @@
 		48315E7D27EAF53900A2CF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48315E7F27EAF53A00A2CF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48315E8227EAF53B00A2CF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48315E8927EAF5F800A2CF10 /* oh_no.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oh_no.mp3; sourceTree = "<group>"; };
+		48315E8A27EAF5F800A2CF10 /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
+		48315E8B27EAF5F800A2CF10 /* db.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = db.atlas; sourceTree = "<group>"; };
+		48315E8F27EAF68F00A2CF10 /* EPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPoint.swift; sourceTree = "<group>"; };
+		48315E9127EAF70100A2CF10 /* PointContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointContainer.swift; sourceTree = "<group>"; };
+		48315E9327EAFCCC00A2CF10 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +75,16 @@
 				48315E7427EAF53900A2CF10 /* GameScene.sks */,
 				48315E7627EAF53900A2CF10 /* Actions.sks */,
 				48315E7827EAF53900A2CF10 /* GameScene.swift */,
+				48315E9327EAFCCC00A2CF10 /* Cat.swift */,
+				48315E8F27EAF68F00A2CF10 /* EPoint.swift */,
+				48315E9127EAF70100A2CF10 /* PointContainer.swift */,
 				48315E7A27EAF53900A2CF10 /* GameViewController.swift */,
 				48315E7C27EAF53900A2CF10 /* Main.storyboard */,
 				48315E7F27EAF53A00A2CF10 /* Assets.xcassets */,
 				48315E8127EAF53B00A2CF10 /* LaunchScreen.storyboard */,
+				48315E8B27EAF5F800A2CF10 /* db.atlas */,
+				48315E8927EAF5F800A2CF10 /* oh_no.mp3 */,
+				48315E8A27EAF5F800A2CF10 /* whistle.mp3 */,
 			);
 			path = C5_Spritekit_cat;
 			sourceTree = "<group>";
@@ -130,9 +148,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				48315E7E27EAF53900A2CF10 /* Main.storyboard in Resources */,
+				48315E8E27EAF5F800A2CF10 /* db.atlas in Resources */,
 				48315E7527EAF53900A2CF10 /* GameScene.sks in Resources */,
 				48315E8027EAF53A00A2CF10 /* Assets.xcassets in Resources */,
 				48315E8327EAF53B00A2CF10 /* LaunchScreen.storyboard in Resources */,
+				48315E8D27EAF5F800A2CF10 /* whistle.mp3 in Resources */,
+				48315E8C27EAF5F800A2CF10 /* oh_no.mp3 in Resources */,
 				48315E7727EAF53900A2CF10 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +167,9 @@
 			files = (
 				48315E7927EAF53900A2CF10 /* GameScene.swift in Sources */,
 				48315E7B27EAF53900A2CF10 /* GameViewController.swift in Sources */,
+				48315E9427EAFCCC00A2CF10 /* Cat.swift in Sources */,
+				48315E9027EAF68F00A2CF10 /* EPoint.swift in Sources */,
+				48315E9227EAF70100A2CF10 /* PointContainer.swift in Sources */,
 				48315E7327EAF53900A2CF10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
